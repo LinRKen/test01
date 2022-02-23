@@ -17,6 +17,12 @@ jobs:
       - name: chmod 01sh script
         run: chmod +x 01.sh
         
+      - name: chmod analysispy script
+        run: chmod +x analysis.py
+        
+      - name: chmod visualizationpy script
+        run: chmod +x visualization.py
+        
       - name: Run 01sh script
         run: ./01.sh https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
 
