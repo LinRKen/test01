@@ -15,5 +15,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Run 01sh script
-        run: echo 1
+        run: ls
+      - name: Run 01sh script
+        run: ll
 
