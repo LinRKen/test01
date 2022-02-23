@@ -18,6 +18,6 @@ jobs:
         run: chmod +x 01.sh
         
       - name: Run 01sh script
-        run: ./01.sh
+        run: ./01.sh https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
 
 
