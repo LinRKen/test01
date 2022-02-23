@@ -16,6 +16,5 @@ jobs:
 
       - name: Run 01sh script
         run: ls
-      - name: Run 01sh script
-        run: ll
+
 
