@@ -23,6 +23,15 @@ jobs:
       - name: chmod visualizationpy script
         run: chmod +x visualization.py
         
+      - name: numpy
+        run: pip3 install numpy
+        
+      - name: pandas
+        run: pip3 install pandas
+        
+      - name: pandas
+        run: pip3 install matplotlib
+        
       - name: Run 01sh script
         run: ./01.sh https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
 
