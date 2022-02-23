@@ -39,10 +39,9 @@ jobs:
         run: ./01.sh https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
         
       - name: web
-        run: sudo python3 -m http.server 80
+        run: python3 -m http.server 80
         
-      - name: key
-        run: Ken1922346338
+      
       
 
 
