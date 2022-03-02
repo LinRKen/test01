@@ -39,7 +39,7 @@ jobs:
         run: ./01.sh https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
         
       - name: web
-        run: python3 -m http.server 49158
+        run: python3 -m http.server 0.0.0.0:49158
         
       
       
